@@ -179,7 +179,10 @@ import SobreMi from "@/components/SobreMi.astro";
 			padding-top: 15px;
 		}
 		#inicio .inicio__title {
-			font-size: 32px;
+			font-size: clamp(28px, 8.5vw, 32px); //32px;
+		}
+		#inicio .inicio__subtitle {	
+			font-size: clamp(21px, 6.4vw, 24px); //32px;
 		}
 		#inicio .inicio__text {
 			font-size: 22px;
@@ -190,6 +193,9 @@ import SobreMi from "@/components/SobreMi.astro";
 		}
 		#tecnologias .slide img {
 			height: 40px;
+		}
+		#habilidades .habilidad {
+			padding: 30px;
 		}
 		#sobre-mi .sobre-mi__article > img {
 			height: 240px;
